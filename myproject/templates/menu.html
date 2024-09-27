@@ -1,9 +1,9 @@
-{% if menu  %}
+{% if menu %}
 
 {% for item in menu %}
-{{item.name}} : {{item.price}}
+{{item.name}}: {{item.price}}
 <br>
 {% endfor %}
 {% else %}
-<p> No item to display </p>
+<p> No items to display</p>
 {% endif %}
